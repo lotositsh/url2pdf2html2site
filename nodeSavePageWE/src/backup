@@ -1,0 +1,7 @@
+﻿var savePageWE=require('./nodeSavePageWE');
+
+
+savePageWE.scrape({ url: "https://soshace.com/ru/read-params/", path: "example3.html", lazyload: false }).then(function ()
+{
+    console.log("ok");
+});
